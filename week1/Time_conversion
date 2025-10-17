@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+    using namespace std;
+int main(){
+   long long n,h,a,m,s;
+   cin>>n;
+   h=n/3600;
+   a=n%3600;
+   m=a/60;
+   s=a%60;
+   cout<<h<<" "<<m<<" "<<s;
+    return 0;
+}
