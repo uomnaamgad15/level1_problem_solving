@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    char x,y,a,b;
+    int z;
+    cin>>x>>y>>z;
+    a=x+z;
+    b=y+z;
+    cout<<a<<" "<<b;
+    return 0;
+}
