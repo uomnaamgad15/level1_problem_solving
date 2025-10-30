@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+int a,b,c,x;
+    char d,e;
+    cin>>a>>d>>b>>e>>c;
+    x=a+b;
+    if (c==x)
+        cout<<"CORRECT";
+    else
+        cout<<a<<'+'<<b<<'='<<x;
+return 0;
+}
