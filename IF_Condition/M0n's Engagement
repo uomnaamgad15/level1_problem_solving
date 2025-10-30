@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+int n;
+cin>>n;
+if(n>=87.5)
+cout<<"MARRY HIM";
+else
+    cout<<"DON'T CRY M0N";
+return 0;
+}
