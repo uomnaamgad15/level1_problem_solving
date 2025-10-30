@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+int H,M,h,m;
+    char c;
+cin>>H>>c>>M>>h>>c>>m;
+    if ((H>h) || ((H==h)&&(M>m)))
+        cout<<"yes";
+    else
+        cout<<"no";
+return 0;
+}
