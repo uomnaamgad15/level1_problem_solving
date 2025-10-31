@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    char a,b,c,x;
+    cin>>a>>b>>c;
+    if ((a>=65 && a<=90) &&  (b>=65 && b<=90)) {
+        x=c-32;
+        cout<<a<<b<<x;
+    }
+    else if ((a>=65 && a<=90) &&  (c>=65 && c<=90)) {
+        x=b-32;
+        cout<<a<<x<<c;
+    }
+    else if ((b>=65 && b<=90) &&  (c>=65 && c<=90)) {
+        x=a-32;
+        cout<<x<<b<<c;
+    }
+    else if ((a>=97 && a<=122) &&  (b>=97 && b<=122)) {
+        x=c+32;
+        cout<<a<<b<<x;
+    }
+    else if ((b>=97 && b<=122) &&  (c>=97 && c<=122)) {
+        x=a+32;
+        cout<<x<<b<<c;
+    }
+    else {
+        x=b+32;
+        cout<<a<<x<<c;
+    }
+    return 0;
+}
