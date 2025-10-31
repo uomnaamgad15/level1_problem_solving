@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+char a,b;
+    cin>>a>>b;
+    if ((a=='R' && b=='P') || (a=='S' && b=='R') || (a=='P' && b=='S'))
+        cout<<"Mustafa";
+    else if ((a==b))
+        cout<<"Draw";
+    else
+        cout<<"Delesseps";
+return 0;
+}
