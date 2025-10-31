@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+string a,b;
+cin>>a>>b;
+if((a=="Amr")&&(b=="Diab"))
+    cout<<"NO DIAB FOR YOU";
+    else
+        cout<<"LISTEN ALONG";
+return 0;
+}
