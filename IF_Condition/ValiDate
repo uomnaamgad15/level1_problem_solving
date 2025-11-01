@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+   int d,m,y;
+    int a,b,c;
+    cin>>d>>m>>y;
+    a=y%10;
+    b=y/10;
+    c=b%10;
+    if (d==31 && (m==4 || m==6 || m==9 || m==11))
+        cout<<"INVALID";
+    else if (d==29 && m==2) {
+        if (a==0 && c==0){
+            if(y%400==0)
+                cout<<"VALID";
+            else
+                cout<<"INVALID";
+        }
+
+        else if  (y%4==0)
+            cout<<"VALID";
+        else
+            cout<<"INVALID";
+    }
+    else
+        cout<<"VALID";
+    return 0;
+}
