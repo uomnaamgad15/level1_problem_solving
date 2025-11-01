@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    int W,w1,w2,w3;
+    cin>>W>>w1>>w2>>w3;
+    if (W==w1 || W==w2 || W==w3)
+        cout<<"YES"<<endl;
+    else if ((W==(w1+w2)) || (W==(w1+w3)) || (W==(w2+w3)))
+        cout<<"YES"<<endl;
+    else if (W==(w1+w2+w3))
+        cout<<"YES"<<endl;
+    else
+        cout<<"NO"<<endl;
+    return 0;
+}
